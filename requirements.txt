@@ -1,4 +1,4 @@
 streamlit
 pandas
-matplotlab==3.4.3
+matplotlib==3.4.3
 seaborn
