@@ -22,6 +22,9 @@ def create_visualization():
 
     # Display the visualization
     st.pyplot(fig)
+    
+
+
 
 
 # Function to display a subset of the data
@@ -36,12 +39,12 @@ def display_data_subset():
 # Create Streamlit app
 def main():
     st.title("Resume Screening Dataset Analysis")
-    st.title("What is the distribution of different categories of resumes in the dataset?")
+    st.subheader("What is the distribution of different categories of resumes in the dataset?")
     
     # Display the visualization
     st.subheader("Distribution of Resume Categories")
     create_visualization()
-
+   
     # Display a subset of the data
     st.subheader("Subset of Data")
     display_data_subset()
